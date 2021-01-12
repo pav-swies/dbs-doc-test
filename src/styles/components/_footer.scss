@@ -1,0 +1,15 @@
+.o-footer {
+  border-top: 1px solid $light-blue;
+  margin-top: $spacing-dog;
+}
+
+.o-footer__inner {
+  padding-top: $spacing-gerbil;
+  padding-bottom: $spacing-horse;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: $lighter-blue;
+  }
+}

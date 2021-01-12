@@ -1,0 +1,28 @@
+.o-doc-link {
+  border-top: 1px solid $light-blue;
+  border-bottom: 1px solid $light-blue;
+  position: relative;
+  padding-top: $spacing-gerbil;
+  padding-bottom: $spacing-gerbil;
+  
+  & + & {
+    border-top: none;
+  }
+
+  &:hover {
+    .o-doc-link__heading {
+      text-decoration: underline;
+    }
+  }
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.o-doc-link__heading {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: $green;
+}

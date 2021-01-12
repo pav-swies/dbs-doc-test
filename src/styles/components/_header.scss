@@ -1,0 +1,29 @@
+.o-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $spacing-cat;
+  margin-bottom: $spacing-gerbil;
+
+  @include medium-breakpoint {
+    margin-top: $spacing-horse;
+  }
+}
+
+.o-header__title {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: $heavy-font;
+  font-weight: bold;
+
+  &--large {
+    font-size: 20px;
+
+    @include medium-breakpoint {
+      font-size: 24px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

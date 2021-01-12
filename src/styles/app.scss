@@ -1,0 +1,60 @@
+@import "./normalize.css";
+@import "./settings/breakpoints";
+@import "./settings/dimensions";
+@import "./settings/wrappers";
+@import "./settings/colours";
+@import "./settings/typography";
+
+@import "./utils/faux-link";
+
+* {
+  font-family: $regular-font;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: $dark-blue;
+  color: $white;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: underline;
+
+  &:hover {
+    color: $pink !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heavy-font;
+
+  & + * {
+    margin-top: $spacing-gerbil;
+  }
+}
+
+p {
+  line-height: 1.8;
+
+  & + & {
+    margin-top: $spacing-gerbil;
+  }
+}
+
+@import "./components/header";
+@import "./components/doc-list";
+@import "./components/doc-link";
+@import "./components/footer";
+
+@import "./templates/doc";
