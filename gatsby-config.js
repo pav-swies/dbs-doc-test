@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `docs`,
         path: `${__dirname}/content/docs`,
+        name: `docs`,
       },
     },
     {
@@ -21,7 +21,6 @@ module.exports = {
         name: `assets`,
       },
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -38,6 +37,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
   ],
