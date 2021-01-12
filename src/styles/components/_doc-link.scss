@@ -22,7 +22,13 @@
 }
 
 .o-doc-link__heading {
-  font-size: 18px;
+  font-size: $font-gerbil;
   text-transform: capitalize;
   color: $green;
+  margin: 0;
+  margin-bottom: $spacing-gerbil;
+
+  @include medium-breakpoint {
+    font-size: $font-cat;
+  }
 }

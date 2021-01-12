@@ -10,16 +10,16 @@
 }
 
 .o-header__title {
-  font-size: 18px;
+  font-size: $font-flea;
   text-decoration: none;
   font-family: $heavy-font;
   font-weight: bold;
 
   &--large {
-    font-size: 20px;
+    font-size: $font-gerbil;
 
     @include medium-breakpoint {
-      font-size: 24px;
+      font-size: $font-cat;
     }
 
     a {

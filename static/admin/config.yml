@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+site_url: https://frosty-borg-29153c.netlify.app/
+display_url: https://frosty-borg-29153c.netlify.app/
 media_folder: "uploads/images"
 public_folder: "content/assets"
 collections:
