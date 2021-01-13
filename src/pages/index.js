@@ -37,7 +37,7 @@ const IndexPage = ({
 export default IndexPage
 
 export const pageQuery = graphql`
-  query {
+  {
     site {
       siteMetadata {
         title

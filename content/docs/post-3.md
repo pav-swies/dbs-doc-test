@@ -1,7 +1,7 @@
 ---
-slug: "/post-3/"
-date: "2015-05-01T22:12:03.284Z"
-title: Hello World
+slug: "/hello-world"
+date: "12/01/2021"
+title: "Hello World"
 ---
 
 This is my first post on my new fake blog! How exciting!

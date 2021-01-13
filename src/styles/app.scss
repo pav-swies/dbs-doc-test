@@ -46,23 +46,43 @@ h6 {
 }
 
 h1 {
-  font-size: $font-whale;
+  font-size: $font-dog;
+
+  @include medium-breakpoint {
+    font-size: $font-whale;
+  }
 }
 
 h2 {
-  font-size: $font-horse;
+  font-size: $font-cat;
+
+  @include medium-breakpoint {
+    font-size: $font-horse;
+  }
 }
 
 h3 {
-  font-size: $font-dog;
+  font-size: $font-gerbil;
+
+  @include medium-breakpoint {
+    font-size: $font-dog;
+  }
 }
 
 h4 {
-  font-size: $font-cat;
+  font-size: $font-mouse;
+
+  @include medium-breakpoint {
+    font-size: $font-cat;
+  }
 }
 
 h5 {
-  font-size: $font-gerbil;
+  font-size: $font-mouse;
+
+  @include medium-breakpoint {
+    font-size: $font-gerbil;
+  }
 }
 
 h6 {
