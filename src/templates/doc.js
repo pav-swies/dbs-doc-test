@@ -12,8 +12,10 @@ export default function docTemplate({ data, location }) {
     <div className="o-wrapper">
       <Header title={ siteTitle } location={ location } />
       <article className="o-doc">
-        <h1>{ frontmatter.title }</h1>
-        <p>{ frontmatter.date }</p>
+        <header className="o-doc__header">
+          <h1 className="o-doc__heading">{ frontmatter.title }</h1>
+          <p className="o-doc__date">{ frontmatter.date }</p>
+        </header>
         <div className="o-doc__content" dangerouslySetInnerHTML={{ __html: html }} />
       </article>
       <Footer location={ location } />

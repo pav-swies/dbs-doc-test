@@ -1,7 +1,11 @@
 .o-doc {
-  margin-top: $spacing-dog;
+  margin-top: $spacing-gerbil;
   padding-top: $spacing-cat;
   border-top: 1px solid $light-blue;
+
+  @include medium-breakpoint {
+    padding-top: $spacing-cat;
+  }
 
   h1 {
     color: $green;
@@ -14,4 +18,25 @@
   h6 {
     color: $white;
   }
+}
+
+.o-doc__header {
+  margin-bottom: $spacing-gerbil;
+  padding-bottom: $spacing-cat;
+  border-bottom: 1px solid $light-blue;
+
+  @include medium-breakpoint {
+    margin-bottom: $spacing-dog;
+  }
+}
+
+.o-doc__heading {
+  margin-bottom: $spacing-gerbil;
+}
+
+.o-doc__date {
+  font-size: $font-mouse;
+  font-family: $heavy-font;
+  font-weight: bold;
+  color: $pink;
 }
