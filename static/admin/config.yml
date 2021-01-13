@@ -5,15 +5,16 @@ site_url: https://frosty-borg-29153c.netlify.app/
 display_url: https://frosty-borg-29153c.netlify.app/
 media_folder: "uploads/images"
 public_folder: "content/assets"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
 collections:
   - name: "docs" # Used in routes, e.g., /admin/collections/blog
     label: "Docs" # Used in the UI
     folder: "content/docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug:
-      encoding: "ascii"
-      clean_accents: true
-      sanitize_replacement: "_"
+    # slug: "{{fields.title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
