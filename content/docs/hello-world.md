@@ -1,6 +1,6 @@
 ---
-date: "12/01/2021"
 title: "Hello World"
+date: "12/01/2021"
 ---
 
 This is my first post on my new fake blog! How exciting!

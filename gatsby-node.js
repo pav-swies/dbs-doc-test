@@ -11,6 +11,7 @@ exports.createPages = ({ actions, graphql }) => {
       allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000) {
         edges {
           node {
+            id
             fields {
               slug
             }
@@ -30,6 +31,7 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           // additional data can be passed via context
           slug: node.fields.slug,
+          id: node.id,
         },
       })
     })

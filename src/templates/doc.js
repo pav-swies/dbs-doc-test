@@ -22,17 +22,19 @@ export default function docTemplate({ data, location }) {
 };
 
 export const pageQuery = graphql`
-  {
+  query whatever($id: String!) {
     site {
       siteMetadata {
         title
       }
     }
-    markdownRemark {
+    markdownRemark(id: { eq: $id }) {
+      excerpt(pruneLength: 160)
+      id
       html
       frontmatter {
-        date
         title
+        date
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
-date: "11/01/2021"
 title: "Set Up an Existing Project (Bedrock)"
+date: "11/01/2021"
 ---
 
 # How to setup an existing WordPress Project from a repo.
