@@ -29,8 +29,6 @@ exports.createPages = ({ actions, graphql }) => {
         path: node.fields.slug,
         component: docTemplate,
         context: {
-          // additional data can be passed via context
-          slug: node.fields.slug,
           id: node.id,
         },
       })

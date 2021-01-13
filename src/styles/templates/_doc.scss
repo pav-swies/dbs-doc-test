@@ -3,12 +3,15 @@
   padding-top: $spacing-cat;
   border-top: 1px solid $light-blue;
 
-  h1,
+  h1 {
+    color: $green;
+  }
+
   h2,
   h3,
   h4,
   h5,
   h6 {
-    color: $green;
+    color: $white;
   }
 }
