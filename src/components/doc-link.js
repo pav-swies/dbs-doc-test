@@ -8,7 +8,7 @@ const DocLink = ({ post }) => (
       <h2 className="o-doc-link__heading">
         { post.frontmatter.title }
       </h2> 
-      <p>{ post.frontmatter.date }</p>
+      <p className="o-doc-link__date">{ post.frontmatter.date }</p>
       <p>{ post.excerpt }</p>
       <p></p>
     </article>

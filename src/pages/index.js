@@ -24,7 +24,7 @@ const IndexPage = ({
       <Header title={ siteTitle } location={ location } />
       <main>
         {/* <p>Last updated: 12/01/2021</p> */}
-        <p>A documentation page with information about the DbS dev process</p>
+        <p>A documentation page with information about the DbS dev process. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos asperiores repellat quo, neque amet.</p>
         <ul className="o-doc-list">
           { Posts }
         </ul>
@@ -52,7 +52,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
+            date(formatString: "Do MMMM YYYY")
             title
           }
         }

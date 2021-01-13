@@ -1,6 +1,6 @@
 ---
-title: "Setting Up a Static Site - AWS, S3, Cloudfront"
-date: "12/01/2021"
+title: Setting Up a Static Site - AWS, S3, Cloudfront
+date: 2021-01-13T13:28:10.396Z
 ---
 
 - You store the site files on S3
