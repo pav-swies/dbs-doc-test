@@ -1,5 +1,4 @@
 ---
-slug: "/my-first-post"
 date: "11/01/2021"
 title: "Set Up an Existing Project (Bedrock)"
 ---

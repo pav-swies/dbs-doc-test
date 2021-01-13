@@ -1,5 +1,4 @@
 ---
-slug: "/my-second-post"
 date: "12/01/2021"
 title: "Setting Up a Static Site - AWS, S3, Cloudfront"
 ---

@@ -1,5 +1,4 @@
 ---
-slug: "/hello-world"
 date: "12/01/2021"
 title: "Hello World"
 ---
