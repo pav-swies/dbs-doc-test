@@ -8,14 +8,12 @@ const Header = ({ location, title }) => {
 
   if (isRootPath) {
     header = (
-      <h1 className="o-header__title o-header__title--large">
-        <Link to="/">{ title }</Link>
-      </h1>
+      <h1 className="o-header__title o-header__title--large">{ title }</h1>
     )
   } else {
     header = (
       <>
-        <Link className="o-header__title" to="/">{ title }</Link>
+        <p className="o-header__title" to="/">{ title }</p>
         <Link to="/">Back</Link>
       </>
     )
