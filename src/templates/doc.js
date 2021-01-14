@@ -10,6 +10,7 @@ export default function docTemplate({ data, location }) {
 
   return (
     <div className="o-wrapper">
+      <title>{ siteTitle } - { frontmatter.title }</title>
       <Header title={ siteTitle } location={ location } />
       <article className="o-doc">
         <header className="o-doc__header">

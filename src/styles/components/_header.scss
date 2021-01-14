@@ -7,6 +7,10 @@
   @include medium-breakpoint {
     margin-top: $spacing-horse;
   }
+
+  &--home {
+    flex-direction: column;
+  }
 }
 
 .o-header__title {
@@ -16,10 +20,12 @@
   font-weight: bold;
 
   &--large {
-    font-size: $font-gerbil;
+    font-size: $font-cat;
+    margin-bottom: $spacing-gerbil;
 
     @include medium-breakpoint {
       font-size: $font-horse;
+      margin-bottom: $spacing-cat;
     }
   }
 }
