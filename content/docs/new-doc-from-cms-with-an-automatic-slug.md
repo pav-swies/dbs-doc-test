@@ -6,7 +6,7 @@ Please work
 
 Example of prism js with custom theme
 
-```javascript
+```jsx
 import React from "react";
 import { graphql } from "gatsby";
 import Header from "../components/header";
