@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Don't be Shy Docs",
+    desciption: "Docs for DbS web projects",
     author: {
       name: `Pav Swies`,
     },

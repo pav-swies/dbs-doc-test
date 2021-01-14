@@ -29,10 +29,10 @@ const IndexPage = ({
       </main>
       <Footer location={ location }/>
     </div>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   {
@@ -57,4 +57,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

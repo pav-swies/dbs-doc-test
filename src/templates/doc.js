@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-export default function docTemplate({ data, location }) {
+const docTemplate = ({ data, location }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
@@ -24,6 +24,8 @@ export default function docTemplate({ data, location }) {
   );
 };
 
+export default docTemplate;
+
 export const pageQuery = graphql`
   query ($id: String!) {
     site {
@@ -40,4 +42,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
