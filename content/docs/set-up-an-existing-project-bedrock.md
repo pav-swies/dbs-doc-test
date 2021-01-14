@@ -1,6 +1,6 @@
 ---
 title: Set Up an Existing Project (Bedrock)
-date: 2021-01-13T13:38:12.577Z
+date: 2021-01-14T10:34:03.499Z
 ---
 
 ## Pre-requisites:
